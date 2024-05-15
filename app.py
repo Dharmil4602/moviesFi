@@ -90,7 +90,10 @@ def recommend(movie):
 
 
 st.header('MovieMaze')
-movies = pickle.load(open('movie_list.pkl','rb'))
+with open('movie_list.pkl', 'rb') as f:
+    movies = pickle.load(f)
+
+# movies = pickle.load(open('movie_list.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
 
 movie_list = movies['title'].values
