@@ -8,7 +8,7 @@ from streamlit_player import st_player
 import json
 
 st.set_page_config(
-   page_title="MovieMaze",
+   page_title="MoviesFi",
    page_icon="icons8-movie-projector-16.png",
    layout="wide",
    initial_sidebar_state="expanded",
