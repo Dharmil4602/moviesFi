@@ -89,7 +89,7 @@ def recommend(movie):
     return recommended_movie_names,recommended_movie_posters,recommended_movie_details,movie_id,index
 
 
-st.header('MovieMaze')
+st.header('MoviesFi')
 with open('movie_list.pkl', 'rb') as f:
     movies = pickle.load(f)
 
