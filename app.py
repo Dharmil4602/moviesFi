@@ -1,6 +1,6 @@
 from datetime import date
 from enum import auto
-import pickle
+import dill as pickle
 from unittest import result
 import streamlit as st
 import requests
